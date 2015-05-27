@@ -17,19 +17,18 @@ NB: POST request needed
 
 ## Text
 
-Returns a list of dictionary containing entities extracted from the text given and their scores.
+Returns a list of dictionaries containing entities extracted from the text given and their scores.
 
     http://localhost:13324/text
 
 Parameters:
 
 - text: text that needs to be analyzed
-- nentities: maximum number of entities to extract
-- minconf: 
-- minlength:
-- excludetypes:
+- nentities: maximum number of entities to extract, default 10
+- minconf: default 0.6
+- minlength: defaul 2
 - language: language of the given text, default None
-- details: set to ['true', '1', 's', 'yes', 'y'] if you desire entities' details
+- details: set to ['true', '1', 's', 'yes', 'y'] if you want to add entities' details
 
 #### example
     
