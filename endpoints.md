@@ -4,14 +4,14 @@
 
 New or updated endpoints are:
 
-1.  text
-2.  topic
+1.  /text
+2.  /topic
 
 Other endpoints are:
 
-1.  '/'
-2.  meta
-3.  logo
+1.  /
+2.  /meta
+3.  /logo
 
 NB: POST request needed
 
