@@ -30,14 +30,14 @@ Parameters:
 - language: language of the given text, default None
 - details: set to ['true', '1', 's', 'yes', 'y'] if you want to add entities' details
 
-#### example
+#### Example
     
 Parameters:
 
     text: The Mona Lisa is a 16th century oil painting created by Leonardo.
     details: True
     
-returns:
+Returns:
 
     [
       {
@@ -128,14 +128,14 @@ Parameters:
 - topic: text that needs to be analyzed
 - language: language of the given text, default None
 
-#### example
+#### Example
    
 Parameters:
 
     topic: http://en.wikipedia.org/wiki/Big_data
     language: En
     
-returns:
+Returns:
 
     {
       "url": "http://en.wikipedia.org/wiki/Big_data",
