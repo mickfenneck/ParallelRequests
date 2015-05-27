@@ -26,7 +26,8 @@ Parameters:
 
 #### example
     
-    -----params-----
+Parameters:
+
     text: The Mona Lisa is a 16th century oil painting created by Leonardo.
     details: True
     
@@ -123,7 +124,8 @@ Parameters:
 
 #### example
    
-    -----params-----
+Parameters:
+
     topic: http://en.wikipedia.org/wiki/Big_data
     language: En
     
